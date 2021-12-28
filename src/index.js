@@ -1,15 +1,4 @@
-//create randomize function called computerPlay() "Rock, paper or Scissors"
 
-//write function called playRound() to play one round
-//takes 2 parameters playerSelection and computerSelection(case-insensitive)
-//console.log(s string such as "You Lose! Paper Beats Rock"
-
-//write function called game() to play five rounds by
-//looping in function playRound() and keep score as well as
-//report winner or loser
-
-//use prompt to get user input
-//dont console.log in any function except displaying results in game()
 
 const selections = ["rock", "paper", "scissors"];
 let playerScore = 0;
@@ -47,11 +36,6 @@ function playRound(playerSelection, computerSelection){
 };
 
 
-//wrap this console log in a function called game(), and repeat 5 function calls
-
-
-//add outcome for equal score
-//playRound 5 times
 function game(){
    while(roundNumber < 5) {
       playRound(prompt("Rock, Paper, or Scissors?").toLowerCase(), computerPlay());
