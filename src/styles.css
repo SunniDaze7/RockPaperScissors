@@ -1,0 +1,60 @@
+body{
+    background-color: lightblue;
+    font-family: 'Concert One',  sans-serif;
+    text-shadow: 2px 2px rgb(189, 187, 187);
+    text-align: center;
+    color: white;
+    display: column;
+    margin-top: 100px;
+}
+
+button{
+    width: 150px;
+    height: 100px;
+    font-family: 'Concert One',  sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px rgb(189, 187, 187);
+    color: white;
+    border: none;
+    border-radius: 25%;
+    margin: 20px;
+}
+
+.rock-button{
+    background-color: lightgreen;
+}
+
+.scissors-button{
+    background-color: lightpink;
+}
+
+.paper-button{
+    background-color: lightyellow;
+}
+.rock-button:hover{
+    background-color: rgb(106, 238, 106);
+    color: lightgray;
+}
+    
+.scissors-button:hover{
+    background-color: rgb(243, 159, 172);
+    color: lightgray;
+}
+    
+.paper-button:hover{
+background-color: rgb(250, 250, 174);
+color: lightgray;
+}
+
+#buttons{
+    margin-left: 300px;
+    display: flex;
+}
+
+#round-rules{
+    display: column;
+}
+
+#results{
+    display: column;
+}

@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 
 <html>
-    <script src="src/index.js"></script>
-<head>
   
-  <title>HTML</title>
+<head>
+  <link rel="stylesheet" href="src/styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  <title>Rock, Paper, Scissors</title>
   <meta charset="UTF-8" />
 </head>
 
 <body>
+  <div id="round-rules">
+    <h1>Rock, Paper, or Scissors?</h1>
+    <p>Click a button to make your selection. You can play until you or the computer reaches 5 points.</p>
+    <p>Your score will be kept below.</p>
+    <div class="round-results"><h3>Result: </h3></div>
+  </div>
 
-  
+<div id= "buttons">
+  <button class="rock-button">Rock</button>
+  <button class="paper-button">Paper</button>
+  <button class="scissors-button">Scissors</button>
+</div>
+
+<div id="results">
+<div class="player-results"><h3>Player Score: </h3></div>
+<div class="computer-results"><h3>Computer Score: </h3></div>
+</div>
 
 </body>
-
+<script src="src/index.js"></script>
 </html>
