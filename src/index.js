@@ -59,23 +59,7 @@ function playRound(playerSelection, computerSelection){
       console.log("Your Score: " + playerScore);
       console.log("Computer's Score: " + computerScore);
    }}
-      
-
-
-/* function game(){
-   while(roundNumber < 5) {
-      playRound(prompt("Rock, Paper, or Scissors?").toLowerCase(), computerPlay());
-   }
-   console.log("Your Score: " + playerScore);
-   console.log("Computer's Score: " + computerScore);
-   if(playerScore < computerScore) {
-      console.log("You lose! :(")
-   } else if(playerScore > computerScore) {
-      console.log("You are the Champion!")
-   } else if(playerScore == computerScore){
-      console.log("It's a Tie!");
-   };
-}; */ 
+   
 
 
 //player Selection functions
