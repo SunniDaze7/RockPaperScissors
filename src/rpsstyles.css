@@ -47,8 +47,9 @@ color: lightgray;
 }
 
 #buttons{
-    margin-left: 300px;
+    /*margin-left: 300px;*/
     display: flex;
+    justify-content: center;
 }
 
 #round-rules{
